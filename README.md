@@ -1,44 +1,44 @@
-### Citadelle
-Implémentation Java du jeu Citadelle où les joueurs incarnent des personnages afin d'accumuler des richesses dans leur cité en construisant des quartiers.
+### Citadel
+Java implementation of the Citadel game where players embody characters to accumulate wealth in their city by building districts.
 
-### Description rapide du déroulement du jeu :
-- Le but du jeu est d'avoir le plus grand score en fin de partie.
-- Les joueurs peuvent piocher des personnages et utiliser le pouvoir de ces derniers.
-- À chaque tour, le joueur a le choix entre piocher deux golds ou deux quartiers pour n'en garder qu'un.
-- Ensuite le joueur décide oui ou non de batir un quartier.
-- Celui qui se retrouve avec 8 quartier dans sa cité met fin au jeu et on passe alors au compte des points.
-- Une fois les bonus affectés, on peut désigner le grand gagnant.
-  
-### Avancement :
-- Toutes les règles du jeu ont été implémentées.
--6 robots avec stratégies différentes.
-- 1 robot avec strategie suivant le forum. https://forum.trictrac.net/t/citadelles-charte-citadelles-de-base/509
-- Affichage Statut / Décisions / Classement / Score .
-- Démo d'une partie avec 5 robots.
-- Démo 2000 parites.
-- Statistiques en sortie avec .csv
-  
-### Pour RUN le projet :
+### Quick overview of the game flow:
+- The goal of the game is to have the highest score at the end.
+- Players can draw characters and use their powers.
+- Each turn, the player has the choice between drawing two gold or two districts to keep only one.
+- Then the player decides whether or not to build a district.
+- The player who ends up with 8 districts in their city ends the game, and then we move on to counting the points.
+- Once the bonuses are allocated, we can designate the grand winner.
 
-*Pour se faire il faut Maven*
+### Progress:
+- All game rules have been implemented.
+- 6 robots with different strategies.
+- 1 robot with strategy following the forum. https://forum.trictrac.net/t/citadelles-charte-citadelles-de-base/509
+- Status / Decisions / Ranking / Score display.
+- Demo of a game with 5 robots.
+- Demo of 2000 games.
+- Output statistics with .csv
 
-Pour tester le code :
+### To RUN the project:
+
+*To do this, you need Maven*
+
+To test the code:
   
         mvn clean package
    
-Pour lancer une démo avec log :
+To launch a demo with logs:
 
         mvn exec:java -D exec.args="--demo" 
   
-Pour lancer une démo 2000 parties :
+To launch a demo of 2000 games:
 
         mvn exec:java -D exec.args="--2thousands"
   
-Pour générer les statistiques csv :
+To generate csv statistics:
 
         mvn exec:java -D exec.args="--csv" 
   
-### Auteurs :
+### Authors:
 Alban FALCOZ
 
 Nora KAYMA-KCILAR
@@ -46,3 +46,4 @@ Nora KAYMA-KCILAR
 Stacy Selom ADZAHO
 
 Sara TAOUFIQ
+
